@@ -1,0 +1,29 @@
+header {
+  /* height: 50px; */
+  display: flex;
+  width: 100%;
+  /* background-color: #4608ad; #24009f;какая то фигня с цветом */
+}
+
+a {
+  text-decoration: none;
+  /* color: whitesmoke; */
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-button {
+  cursor: pointer;
+}
