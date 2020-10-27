@@ -4,8 +4,12 @@ export const navigation = [
     href: "/"
   },
   {
-    text: "Проекты",
-    href: "/projects"
+    text: "Услуги",
+    href: "/services"
+  },
+  {
+    text: "Карта",
+    href: "/map"
   },
   {
     text: "Контакты",

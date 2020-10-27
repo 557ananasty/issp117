@@ -1,0 +1,25 @@
+.fon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.portfolio-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.developers-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+}

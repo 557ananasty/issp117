@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./index.css";
 import { navigation } from "../../util/data";
+import Link from "./Link";
 
 export default class Constructor extends Component {
   render() {
@@ -9,25 +10,19 @@ export default class Constructor extends Component {
         <div className='container'>
           <div>
             <a>
-              <img src={require("../../assets/image/logo-text.svg")} />
+              <img
+                className='logo-img'
+                src={require("../../assets/image/grave.svg")}
+              />
             </a>
           </div>
           <div className='navigation'>
             {navigation.map(item => (
               <div style={{ paddingRight: 20 }}>
-                <Link
-                  text={this.context.isEnglish ? item.text.en : item.text.ru}
-                  href={item.href}
-                />
+                <Link text={item.text} href={item.href} />
               </div>
             ))}
-            <div>
-              <Language
-                lang={this.context.language}
-                onClick={this.context.changeLanguage}
-              />
-            </div>
-            {/* <div>Search</div> */}
+            <div>{"ЛК / Автор / Регистр"}</div>
           </div>
         </div>
       </header>
