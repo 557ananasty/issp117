@@ -5,8 +5,8 @@
   padding: 40px 0px;
 }
 
-.portfolio-text {
-  font-family: Roboto;
+.welcome {
+  font-family: Belisa;
   font-style: normal;
   font-weight: normal;
   font-size: 52px;
@@ -15,8 +15,16 @@
   margin-bottom: 25px;
 }
 
-.developers-text {
-  font-family: Roboto;
+.quote {
+  font-family: Belisa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.quote-ru {
   font-style: normal;
   font-weight: normal;
   font-size: 42px;

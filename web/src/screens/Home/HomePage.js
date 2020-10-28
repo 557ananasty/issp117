@@ -6,13 +6,18 @@ export default class HomePage extends Component {
     return (
       <div id='home' className='page fon'>
         <div>
-          <img src={require("../../assets/image/grave.svg")} height={200} />
+          <img
+            src={require("../../assets/image/grave.svg")}
+            height={200}
+            alt='icon'
+          />
         </div>
         <div>
-          <div className='portfolio-text'>
-            {"Добро пожаловать в другой мир"}
+          <div className='welcome'>{"Welcome to another world"}</div>
+          <div>
+            <div className='quote'>{"{quote}"}</div>
+            <div className='quote-ru'>{"{Цитатка}"}</div>
           </div>
-          <div className='developers-text'>{"{Цитатка}"}</div>
         </div>
       </div>
     );

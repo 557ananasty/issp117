@@ -7,7 +7,11 @@ export default class Contacts extends Component {
     return (
       <div id='contacts' className='page fon'>
         <div>
-          <img src={require("../../assets/image/map.svg")} height={200} />
+          <img
+            src={require("../../assets/image/map.svg")}
+            height={200}
+            alt='icon'
+          />
         </div>
         <div>
           <div>{`e-mail : ${contacts.email}`}</div>
